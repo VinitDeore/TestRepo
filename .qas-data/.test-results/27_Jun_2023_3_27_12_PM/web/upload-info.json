@@ -1,0 +1,131 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "AzureDemo",
+    "line": 9,
+    "description": "",
+    "id": "AzureDemo",
+    "tags": [],
+    "uri": "Amazon/AzureDemo",
+    "testSuiteName": "Amazon",
+    "type": "web",
+    "appName": "chrome",
+    "capability": {
+      "remoteUrl": "https://www.amazon.com",
+      "type": "web",
+      "selectBrowser": "chrome",
+      "selectDevice": "",
+      "isRemote": false,
+      "remoteHubUrl": "http://127.0.0.1:4444/wd/hub/",
+      "isDebugMode": false,
+      "details": {
+        "deviceMetrics": {
+          "name": "",
+          "width": "",
+          "height": "",
+          "pixelRatio": "",
+          "userAgent": ""
+        }
+      }
+    },
+    "desiredCapabilities": {},
+    "elements": [
+      {
+        "id": "AzureDemo",
+        "keyword": "Scenario",
+        "description": "",
+        "line": 9,
+        "name": "AzureDemo",
+        "type": "scenario",
+        "testData": "",
+        "executionStatus": "Passed",
+        "tagName": [],
+        "capability": {
+          "remoteUrl": "https://www.amazon.com",
+          "type": "web",
+          "selectBrowser": "chrome",
+          "selectDevice": "",
+          "isRemote": false,
+          "remoteHubUrl": "http://127.0.0.1:4444/wd/hub/",
+          "isDebugMode": false,
+          "details": {
+            "deviceMetrics": {
+              "name": "",
+              "width": "",
+              "height": "",
+              "pixelRatio": "",
+              "userAgent": ""
+            }
+          }
+        },
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 1,
+            "name": "get https://www.amazon.com",
+            "match": {
+              "location": "AzureDemo/01"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6462000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 2,
+            "name": "click on xpath=//div[@id='nav-xshop']/a",
+            "match": {
+              "location": "AzureDemo/11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2327000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 3,
+            "name": "click on xpath=//img[contains(@src,'https://m.media-amazon.com/images/G/01/SBP/2023/PD23/Homepage/SBE_PD23_ImageCarousel_240x224.jpg')]",
+            "match": {
+              "location": "AzureDemo/21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 635000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 4,
+            "name": "click on xpath=//img[contains(@src,'https://m.media-amazon.com/images/G/01/launchpad/2023/BentoDealASIN.jpg')]",
+            "match": {
+              "location": "AzureDemo/31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 592000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 5,
+            "name": "click on xpath=//img[@alt='Amazfit GTS 4 Mini Smart Watches']",
+            "match": {
+              "location": "AzureDemo/41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4440000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

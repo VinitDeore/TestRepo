@@ -1,0 +1,26 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "author": "vinit.deore",
+        "description": "",
+        "groups": [],
+        "lineNo": 0,
+        "name": "AzureDemo",
+        "referece": "",
+        "resultFileName": "AzureDemo",
+        "testSuiteName": "Amazon",
+        "sign": "",
+        "executedOn": "Local"
+      },
+      "dependsOn": [],
+      "startTime": 0,
+      "duration": 14456000000,
+      "result": "pass",
+      "passPer": 0
+    }
+  ]
+}

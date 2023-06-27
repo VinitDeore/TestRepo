@@ -1,0 +1,40 @@
+{
+  "seleniumLog": [],
+  "checkPoints": [
+    {
+      "message": "Given get https://www.amazon.com",
+      "type": "TestStepPass",
+      "duration": 6462,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on xpath=//div[@id='nav-xshop']/a",
+      "type": "TestStepPass",
+      "duration": 2327,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on xpath=//img[contains(@src,'https://m.media-amazon.com/images/G/01/SBP/2023/PD23/Homepage/SBE_PD23_ImageCarousel_240x224.jpg')]",
+      "type": "TestStepPass",
+      "duration": 635,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on xpath=//img[contains(@src,'https://m.media-amazon.com/images/G/01/launchpad/2023/BentoDealASIN.jpg')]",
+      "type": "TestStepPass",
+      "duration": 592,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on xpath=//img[@alt='Amazfit GTS 4 Mini Smart Watches']",
+      "type": "TestStepPass",
+      "duration": 4440,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

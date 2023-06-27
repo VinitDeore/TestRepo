@@ -1,0 +1,272 @@
+{
+    "steps": [
+        {
+            "command": "Open",
+            "element": "",
+            "eArray": [],
+            "input": "https://www.amazon.com",
+            "status": "Passed",
+            "elementKey": "",
+            "elementDesc": "",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "tcId": "9",
+            "tsId": 8,
+            "testData": false,
+            "duration": 6462000000,
+            "executedOn": "2023-06-27T09:56:59.065Z",
+            "errMessage": "",
+            "isRowExpanded": false,
+            "@@mycolor": null
+        },
+        {
+            "command": "Click",
+            "element": "link.todays.deals",
+            "eArray": [
+                [
+                    "xpath=//div[@id='nav-xshop']/a",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//a[contains(@href, '/gp/goldbox?ref_=nav_cs_gb')]",
+                    "xpath:href"
+                ],
+                [
+                    "xpath=//div[2]/div[2]/div/a",
+                    "xpath:position"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='India'])[2]/following::a[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='International Shopping Transition Alert'])[1]/following::a[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Customer Service'])[1]/preceding::a[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Registry'])[1]/preceding::a[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=//a[text()=concat('Today', \"'\", 's Deals')]",
+                    "xpath:innerText"
+                ],
+                [
+                    "link.todays.deals",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "Passed",
+            "elementKey": "link.todays deals",
+            "elementDesc": "Link for Today's Deals",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "tcId": "9",
+            "tsId": 8,
+            "testData": false,
+            "duration": 2327000000,
+            "executedOn": "2023-06-27T09:57:01.392Z",
+            "errMessage": "",
+            "isRowExpanded": false,
+            "@@mycolor": null
+        },
+        {
+            "command": "Click",
+            "element": "img.gridpresets-module__gridpresetimage_1fnio-do5tdxu-xjmp1m77",
+            "eArray": [
+                [
+                    "xpath=//img[contains(@src,'https://m.media-amazon.com/images/G/01/SBP/2023/PD23/Homepage/SBE_PD23_ImageCarousel_240x224.jpg')]",
+                    "xpath:img"
+                ],
+                [
+                    "xpath=//div[@id='anonCarousel1']/ol/li[6]/a/span/img",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//li[6]/a/span/img",
+                    "xpath:position"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Invite-only Prime deals'])[1]/following::img[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Amazon Devices'])[1]/following::img[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Small Business'])[1]/preceding::img[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Computers & Accessories'])[1]/preceding::img[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "img.gridpresets-module__gridpresetimage_1fnio-do5tdxu-xjmp1m77",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "Passed",
+            "elementKey": "img.gridpresets-module__gridpresetimage_1fnio-do5tdxu-xjmp1m77",
+            "elementDesc": "Image of gridpresets-module__gridpresetimage_1fnio-do5tdxu-xjmp1m77",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "tcId": "9",
+            "tsId": 8,
+            "testData": false,
+            "duration": 635000000,
+            "executedOn": "2023-06-27T09:57:02.027Z",
+            "errMessage": "",
+            "isRowExpanded": false,
+            "@@mycolor": null
+        },
+        {
+            "command": "Click",
+            "element": "img.gridpresets-module__gridpresetimage_1fnio-do5tdxu-xjmp1m77_1",
+            "eArray": [
+                [
+                    "xpath=//img[contains(@src,'https://m.media-amazon.com/images/G/01/launchpad/2023/BentoDealASIN.jpg')]",
+                    "xpath:img"
+                ],
+                [
+                    "xpath=//div[@id='anonCarousel1']/ol/li[2]/a/span/img",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//li[2]/a/span/img",
+                    "xpath:position"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='All Deals'])[1]/following::img[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Previous page'])[1]/following::img[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back to School'])[1]/preceding::img[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Off to College'])[1]/preceding::img[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "img.gridpresets-module__gridpresetimage_1fnio-do5tdxu-xjmp1m77_1",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "Passed",
+            "elementKey": "img.gridpresets-module__gridpresetimage_1fnio-do5tdxu-xjmp1m77",
+            "elementDesc": "Image of gridpresets-module__gridpresetimage_1fnio-do5tdxu-xjmp1m77",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "tcId": "9",
+            "tsId": 8,
+            "testData": false,
+            "duration": 592000000,
+            "executedOn": "2023-06-27T09:57:02.620Z",
+            "errMessage": "",
+            "isRowExpanded": false,
+            "@@mycolor": null
+        },
+        {
+            "command": "Click",
+            "element": "img.amazfit.gts.4.mini.smart.watches",
+            "eArray": [
+                [
+                    "xpath=//img[@alt='Amazfit GTS 4 Mini Smart Watches']",
+                    "xpath:img"
+                ],
+                [
+                    "xpath=//div[@id='grid-main-container']/div[3]/div/div[7]/div/div/a/div/div/img",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//div[7]/div/div/a/div/div/img",
+                    "xpath:position"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='BISSELL ProHeat 2X Revolution Pet Pro Plus, 3588F, Upright Deep Cleaner'])[1]/following::img[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Deal'])[4]/following::img[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Deal'])[5]/preceding::img[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Deal'])[6]/preceding::img[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "img.amazfit.gts.4.mini.smart.watches",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "Passed",
+            "elementKey": "img.amazfit gts 4 mini smart watches",
+            "elementDesc": "Image of Amazfit GTS 4 Mini Smart Watches",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "tcId": "9",
+            "tsId": 8,
+            "testData": false,
+            "duration": 4440000000,
+            "executedOn": "2023-06-27T09:57:07.060Z",
+            "errMessage": "",
+            "isRowExpanded": false,
+            "@@mycolor": null
+        }
+    ],
+    "type": "web",
+    "capabilities": {
+        "remoteUrl": "https://www.amazon.com",
+        "type": "web",
+        "selectBrowser": "chrome",
+        "selectDevice": "",
+        "isRemote": false,
+        "remoteHubUrl": "http://127.0.0.1:4444/wd/hub/",
+        "isDebugMode": false,
+        "details": {
+            "deviceMetrics": {
+                "name": "",
+                "width": "",
+                "height": "",
+                "pixelRatio": "",
+                "userAgent": ""
+            }
+        }
+    },
+    "testDataExample": [],
+    "isTCValid": true,
+    "externalTestData": false,
+    "recordSessionType": "multiple",
+    "tags": [],
+    "description": "",
+    "shared": false,
+    "executionStatus": "Passed"
+}

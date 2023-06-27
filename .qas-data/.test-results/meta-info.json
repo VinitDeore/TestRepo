@@ -1,0 +1,9 @@
+{
+  "reports": [
+    {
+      "name": "Amazon",
+      "dir": ".qas-data/.test-results/27_Jun_2023_3_27_12_PM",
+      "startTime": 1687859832101
+    }
+  ]
+}
